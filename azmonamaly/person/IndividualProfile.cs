@@ -25,11 +25,20 @@ public class IndividualProfile:Profile , WriteForFile
         individualProfile.LastName = Console.ReadLine();
         Console.WriteLine("pls enter your addres:");
         individualProfile.Addres = Console.ReadLine();
+        bool t=true;
+        DateTime ddate=DateTime.Now;
+        while (t) { 
         Console.WriteLine("enter yoir birthday:");
         string dat = Console.ReadLine();
         var date = dat.Split(',');
-        DateTime ddate= new DateTime(Convert.ToInt32(date[0]), Convert.ToInt32(date[1]), Convert.ToInt32(date[2]));
+        ddate= new DateTime(Convert.ToInt32(date[0]), Convert.ToInt32(date[1]), Convert.ToInt32(date[2]));
         individualProfile.Dateofbirth = ddate;
+            DateTime date1 =  DateTime.Now;
+            if (ddate < date1)
+            {
+                t=false;
+            }
+        }
         var age= individualProfile.agemaker(ddate);
         individualProfile.Age=Convert.ToInt32( age);
         Console.WriteLine("pls enter your phone:");
@@ -41,7 +50,7 @@ public class IndividualProfile:Profile , WriteForFile
        
         File.AppendAllText(path,line);
     }
-    public override  double agemaker(DateTime date)
+    public override  int agemaker(DateTime date)
     {
         DateTime dt = DateTime.Now;
         var age1 = (dt - date).TotalDays;
