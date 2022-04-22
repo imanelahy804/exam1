@@ -40,19 +40,20 @@ public class LegalProfile:Profile , WriteForFile
         int c=Convert.ToInt32( Console.ReadLine())-1;
         Console.WriteLine("enter  Date of icome:");
         user.Income =Convert.ToInt32( Console.ReadLine());
-        
-        var age =user.agemaker(ddate);
+        var result= user.agemaker(ddate);
+        var age = Convert.ToInt32(result);
         string line = $"{user.Name},{user.Addres},{user.DateofRegistration},{user.Income},{age},{Convert.ToString(c)}";
 
 
        
        
-        File.AppendAllText(path, line);
+        File.AppendAllText(path, line + Environment.NewLine);
     }
    override public   double agemaker(DateTime date)
     {
         DateTime dt = DateTime.Now;
         var resultdat = (dt - date).TotalDays;
-        return resultdat;
+        var resultdat1 = resultdat / 365;
+        return resultdat1;
     }
 }

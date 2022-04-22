@@ -48,9 +48,9 @@ public class IndividualProfile:Profile , WriteForFile
         string line = $"{individualProfile.Name},{individualProfile.LastName},{individualProfile.Addres},{individualProfile.Dateofbirth},{individualProfile.PhoneNumber},{individualProfile.Jobe},{age}";
        
        
-        File.AppendAllText(path,line);
+        File.AppendAllText(path, line+Environment.NewLine);
     }
-    public override  int agemaker(DateTime date)
+    public override  double agemaker(DateTime date)
     {
         DateTime dt = DateTime.Now;
         var age1 = (dt - date).TotalDays;

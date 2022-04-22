@@ -10,11 +10,12 @@ public abstract class Profile
         IndividualProfile,
         LegalProfile
     }
-    public  virtual int agemaker(DateTime date)
+    public  virtual double agemaker(DateTime date)
     {
         DateTime dt = DateTime.Now;
         var resultdat= (dt - date).TotalMinutes;
-        return resultdat;
+        var resultdat1 = resultdat / 365;
+        return resultdat1;
     }
     
 
