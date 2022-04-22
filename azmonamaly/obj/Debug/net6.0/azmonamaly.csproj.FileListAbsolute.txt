@@ -1,0 +1,15 @@
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.csproj.AssemblyReference.cache
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.AssemblyInfoInputs.cache
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.AssemblyInfo.cs
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.csproj.CoreCompileInputs.cache
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\bin\Debug\net6.0\azmonamaly.exe
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\bin\Debug\net6.0\azmonamaly.deps.json
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\bin\Debug\net6.0\azmonamaly.runtimeconfig.json
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\bin\Debug\net6.0\azmonamaly.dll
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\bin\Debug\net6.0\ref\azmonamaly.dll
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\bin\Debug\net6.0\azmonamaly.pdb
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.dll
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\ref\azmonamaly.dll
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.pdb
+C:\Users\RADIN\source\repos\azmonamaly\azmonamaly\obj\Debug\net6.0\azmonamaly.genruntimeconfig.cache
